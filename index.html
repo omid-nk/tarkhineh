@@ -4,18 +4,18 @@
     <link rel="icon" type="image/svg+xml" href="/tarkhineh/assets/favicon-C6gL58C1.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarkhineh</title>
-    <script type="module" crossorigin src="/tarkhineh/assets/index-BhbVcg6k.js"></script>
-    <link rel="stylesheet" crossorigin href="/tarkhineh/assets/index-Bsutre_d.css">
+    <script type="module" crossorigin src="/tarkhineh/assets/index-Ckx-SLBt.js"></script>
+    <link rel="stylesheet" crossorigin href="/tarkhineh/assets/index-wUDj8OXR.css">
   </head>
   <body class="mt-20">
     <!-- header -->
     <header
-      class="fixed top-0 right-0 left-0 z-50 mx-auto flex h-20 max-w-7xl items-center justify-between px-4 bg-white"
+      class="fixed top-0 right-0 left-0 z-50 mx-auto flex h-20 max-w-7xl items-center justify-between bg-white px-4"
     >
       <!-- side navbar mobile -->
       <nav
         id="side-nav"
-        class="fixed top-0 -right-64 bottom-0 z-40 w-64 shadow-2xl transition-all sm:hidden bg-white"
+        class="fixed top-0 -right-64 bottom-0 z-40 w-64 bg-white shadow-2xl transition-all sm:hidden"
       >
         <!-- image top -->
         <div class="relative flex w-full">
@@ -107,7 +107,7 @@
       <!-- menu btns -->
       <div class="flex gap-1">
         <div
-          class="bg-Tint-1 hidden h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow sm:flex md:h-10 md:w-10"
+          class="bg-Tint-1 hover:bg-Shade-1/30 hidden h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow sm:flex md:h-10 md:w-10"
         >
           <img
             class="h-4 w-4 md:h-6 md:w-6"
@@ -116,7 +116,7 @@
           />
         </div>
         <div
-          class="bg-Tint-1 flex h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow md:h-10 md:w-10"
+          class="bg-Tint-1 hover:bg-Shade-1/30 flex h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow md:h-10 md:w-10"
         >
           <img
             class="h-4 w-4 md:h-6 md:w-6"
@@ -125,7 +125,7 @@
           />
         </div>
         <div
-          class="bg-Tint-1 flex h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow md:h-10 md:w-10"
+          class="bg-Tint-1 hover:bg-Shade-1/30 flex h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow md:h-10 md:w-10"
         >
           <img
             class="h-4 w-4 md:h-6 md:w-6"
@@ -140,20 +140,20 @@
       <!-- hero section -->
       <section
         id="hero"
-        class="relative h-44 sm:h-64 md:h-96 max-w-7xl mx-auto bg-center bg-cover transition-all duration-700"
+        class="relative mx-auto h-44 max-w-7xl bg-cover bg-center transition-all duration-700 sm:h-64 md:h-96 xl:rounded-xl"
       >
         <!-- Overlay -->
-        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="absolute inset-0 bg-black/60 xl:rounded-xl"></div>
 
         <!-- Text content -->
         <div
           class="absolute inset-0 flex flex-col items-center justify-center text-center text-white"
         >
-          <h2 class="text-base sm:text-2xl md:text-4xl font-extrabold mb-4">
+          <h2 class="mb-4 text-base font-extrabold sm:text-2xl md:text-4xl">
             تجربه غذای سالم و گیاهی به سبک ترخینه
           </h2>
           <button
-            class="bg-Primary mt-4 text-sm md:text-base cursor-pointer transition px-6 py-2 rounded-md text-white"
+            class="bg-Primary hover:bg-Shade-2 mt-4 cursor-pointer rounded-md px-6 py-2 text-sm text-white transition hover:shadow-2xl md:text-base"
           >
             سفارش آنلاین غذا
           </button>
@@ -162,7 +162,7 @@
         <!-- Arrows -->
         <div
           id="left-btn"
-          class="absolute hidden md:block left-4 top-1/2 -translate-y-1/2 cursor-pointer p-2 rounded-full bg-white/5 hover:bg-white/20 transition"
+          class="absolute top-1/2 left-4 hidden -translate-y-1/2 cursor-pointer rounded-full bg-white/5 p-2 transition hover:bg-white/20 md:block"
         >
           <img
             src="data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.8805%2027.56C11.6271%2027.56%2011.3738%2027.4667%2011.1738%2027.2667C10.7871%2026.88%2010.7871%2026.24%2011.1738%2025.8534L19.8671%2017.16C20.5071%2016.52%2020.5071%2015.48%2019.8671%2014.84L11.1738%206.14669C10.7871%205.76003%2010.7871%205.12003%2011.1738%204.73336C11.5605%204.34669%2012.2005%204.34669%2012.5871%204.73336L21.2805%2013.4267C21.9605%2014.1067%2022.3471%2015.0267%2022.3471%2016C22.3471%2016.9734%2021.9738%2017.8934%2021.2805%2018.5734L12.5871%2027.2667C12.3871%2027.4534%2012.1338%2027.56%2011.8805%2027.56Z'%20fill='white'/%3e%3c/svg%3e"
@@ -172,13 +172,91 @@
         </div>
         <div
           id="right-btn"
-          class="absolute hidden md:block right-4 top-1/2 -translate-y-1/2 cursor-pointer p-2 rounded-full bg-white/5 hover:bg-white/20 transition"
+          class="absolute top-1/2 right-4 hidden -translate-y-1/2 cursor-pointer rounded-full bg-white/5 p-2 transition hover:bg-white/20 md:block"
         >
           <img src="data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.8805%2027.56C11.6271%2027.56%2011.3738%2027.4667%2011.1738%2027.2667C10.7871%2026.88%2010.7871%2026.24%2011.1738%2025.8534L19.8671%2017.16C20.5071%2016.52%2020.5071%2015.48%2019.8671%2014.84L11.1738%206.14669C10.7871%205.76003%2010.7871%205.12003%2011.1738%204.73336C11.5605%204.34669%2012.2005%204.34669%2012.5871%204.73336L21.2805%2013.4267C21.9605%2014.1067%2022.3471%2015.0267%2022.3471%2016C22.3471%2016.9734%2021.9738%2017.8934%2021.2805%2018.5734L12.5871%2027.2667C12.3871%2027.4534%2012.1338%2027.56%2011.8805%2027.56Z'%20fill='white'/%3e%3c/svg%3e" class="h-6 w-6" alt="next" />
         </div>
       </section>
-    </main>
-    <!-- footer -->
-    <footer></footer>
+      <!-- Restaurant menu -->
+      <section class="mx-auto max-w-7xl px-3">
+        <!-- title -->
+        <div class="my-8 text-center">
+          <h2 class="text-lg font-bold text-black sm:text-2xl">منوی رستوران</h2>
+        </div>
+        <!-- box menu -->
+        <div
+          class="mt-28 flex shrink grow flex-col justify-center gap-x-4 gap-y-32 md:mt-40 md:flex-row"
+        >
+          <div
+            class="flex shrink grow justify-center gap-2 md:justify-end md:gap-4"
+          >
+            <div
+              class="bg-Primary relative flex h-24 max-w-3xs shrink grow items-center justify-center rounded-2xl p-2 sm:h-28 md:h-32"
+            >
+              <img
+                class="absolute -top-3/4 w-32 drop-shadow-2xl sm:w-36 md:-top-5/6 md:w-48"
+                src="/tarkhineh/assets/restaurant-menu-maincourse-DDwCSxLm.png"
+                alt="Restaurant menu"
+              />
+              <a
+                href="#"
+                class="absolute -bottom-1/12 flex h-8 w-28 items-center justify-center rounded-md bg-neutral-200 drop-shadow-lg"
+              >
+                غذای اصلی
+              </a>
+            </div>
+            <div
+              class="bg-Primary relative flex h-24 max-w-3xs shrink grow items-center justify-center rounded-2xl p-2 sm:h-28 md:h-32"
+            >
+              <img
+                class="absolute -top-3/4 w-32 drop-shadow-2xl sm:w-36 md:-top-5/6 md:w-48"
+                src="/tarkhineh/assets/restaurant-menu-appetizer-Bf0iui16.png"
+                alt="Restaurant menu"
+              />
+              <a
+                href="#"
+                class="absolute -bottom-1/12 flex h-8 w-28 items-center justify-center rounded-md bg-neutral-200 drop-shadow-lg"
+              >
+                پیش غذا
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex shrink grow justify-center gap-2 md:justify-start md:gap-4"
+          >
+            <div
+              class="bg-Primary relative flex h-24 max-w-3xs shrink grow items-center justify-center rounded-2xl p-2 sm:h-28 md:h-32"
+            >
+              <img
+                class="absolute -top-3/4 w-32 drop-shadow-2xl sm:w-36 md:-top-5/6 md:w-48"
+                src="/tarkhineh/assets/restaurant-menu-dessert-fy57CaVo.png"
+                alt="Restaurant menu"
+              />
+              <a
+                href="#"
+                class="absolute -bottom-1/12 flex h-8 w-28 items-center justify-center rounded-md bg-neutral-200 drop-shadow-lg"
+              >
+                دسر
+              </a>
+            </div>
+            <div
+              class="bg-Primary relative flex h-24 max-w-3xs shrink grow items-center justify-center rounded-2xl p-2 sm:h-28 md:h-32"
+            >
+              <img
+                class="absolute -top-full w-32 drop-shadow-2xl sm:w-36 md:-top-[120%] md:w-48"
+                src="/tarkhineh/assets/restaurant-menu-drink-BdCvy-eu.png"
+                alt="Restaurant menu"
+              />
+              <a
+                href="#"
+                class="absolute -bottom-1/12 flex h-8 w-28 items-center justify-center rounded-md bg-neutral-200 drop-shadow-lg"
+              >
+                نوشیدنی
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
