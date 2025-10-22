@@ -1,0 +1,183 @@
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarkhineh</title>
+  </head>
+  <body class="mt-20">
+    <!-- header -->
+    <header
+      class="fixed top-0 right-0 left-0 z-50 mx-auto flex h-20 max-w-7xl items-center justify-between px-4 bg-white"
+    >
+      <!-- side navbar mobile -->
+      <nav
+        id="side-nav"
+        class="fixed top-0 -right-64 bottom-0 z-40 w-64 shadow-2xl transition-all sm:hidden bg-white"
+      >
+        <!-- image top -->
+        <div class="relative flex w-full">
+          <img src="public/images/top-Frame-mobile-menu.jpg" alt="" />
+          <div class="absolute h-full w-full bg-black/60"></div>
+          <div class="absolute top-1/3 right-4 w-20">
+            <img src="public/images/logo-tarkhineh-small-white.png" alt="" />
+          </div>
+          <div id="close-side-nav" class="absolute top-4 left-4">
+            <img src="public/images/svgs/Close icon.svg" alt="" />
+          </div>
+        </div>
+        <!-- main navbar -->
+        <ul class="px-4 py-2 text-xs">
+          <li class="border-b-gray-2 flex items-center gap-1.5 border-b py-3">
+            <img class="h-3 w-3" src="public/images/svgs/home.svg" alt="" />
+            <a class="text-Primary" href="">صفحه اصلی</a>
+          </li>
+          <li
+            class="border-b-gray-2 relative flex items-center gap-1.5 border-b py-3"
+          >
+            <img src="public/images/svgs/menu-board.svg" alt="" />
+            <a class="text-black" href="">منو</a>
+            <span class="absolute left-0"
+              ><img src="public/images/svgs/arrow-down.svg" alt=""
+            /></span>
+          </li>
+          <li
+            class="border-b-gray-2 relative flex items-center gap-1.5 border-b py-3"
+          >
+            <img src="public/images/svgs/home-hashtag.svg" alt="" />
+            <a class="text-black" href="">شعبه</a>
+            <span class="absolute left-0"
+              ><img src="public/images/svgs/arrow-down.svg" alt=""
+            /></span>
+          </li>
+          <li class="border-b-gray-2 flex items-center gap-1.5 border-b py-3">
+            <img src="public/images/svgs/profile-2user.svg" alt="" />
+            <a class="text-black" href="">درباره ما</a>
+          </li>
+          <li class="border-b-gray-2 flex items-center gap-1.5 border-b py-3">
+            <img src="public/images/svgs/call-calling.svg" alt="" />
+            <a class="text-black" href="">تماس با ما</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- menu burger icon -->
+      <div
+        id="menu-btn"
+        class="flex h-6 w-6 items-center justify-center sm:hidden"
+      >
+        <span
+          class="bg-Primary before:bg-Primary after:bg-Primary relative block h-[1.5px] w-4 before:absolute before:-top-1 before:h-[1.5px] before:w-4 before:content-[''] after:absolute after:top-1 after:h-[1.5px] after:w-4 after:content-['']"
+        ></span>
+      </div>
+
+      <!-- menu logo -->
+      <div class="w-26 transition-all md:w-36">
+        <img
+          src="public/images/logo-tarkhineh-small-green.png"
+          alt="Logo tarkhineh"
+        />
+      </div>
+
+      <!-- navbar desktop -->
+      <nav class="hidden sm:block">
+        <ul class="flex gap-4 text-sm md:gap-6 md:text-base">
+          <li
+            class="hover:text-Primary text-Primary border-b py-1.5 font-bold transition-all"
+          >
+            <a href="#">صفحه اصلی</a>
+          </li>
+          <li class="hover:text-Primary py-1.5 transition-all">
+            <a href="#">شعبه</a>
+          </li>
+          <li class="hover:text-Primary py-1.5 transition-all">
+            <a href="#">منو</a>
+          </li>
+          <li class="hover:text-Primary py-1.5 transition-all">
+            <a href="#">درباره ما</a>
+          </li>
+          <li class="hover:text-Primary py-1.5 transition-all">
+            <a href="#">تماس با ما</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- menu btns -->
+      <div class="flex gap-1">
+        <div
+          class="bg-Tint-1 hidden h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow sm:flex md:h-10 md:w-10"
+        >
+          <img
+            class="h-4 w-4 md:h-6 md:w-6"
+            src="/public/images/svgs/search-normal.svg"
+            alt=""
+          />
+        </div>
+        <div
+          class="bg-Tint-1 flex h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow md:h-10 md:w-10"
+        >
+          <img
+            class="h-4 w-4 md:h-6 md:w-6"
+            src="/public/images/svgs/shopping-cart.svg"
+            alt=""
+          />
+        </div>
+        <div
+          class="bg-Tint-1 flex h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow md:h-10 md:w-10"
+        >
+          <img
+            class="h-4 w-4 md:h-6 md:w-6"
+            src="/public/images/svgs/user.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- hero section -->
+      <section
+        id="hero"
+        class="relative h-44 sm:h-64 md:h-96 max-w-7xl mx-auto bg-center bg-cover transition-all duration-700"
+      >
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/60"></div>
+
+        <!-- Text content -->
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center text-center text-white"
+        >
+          <h2 class="text-base sm:text-2xl md:text-4xl font-extrabold mb-4">
+            تجربه غذای سالم و گیاهی به سبک ترخینه
+          </h2>
+          <button
+            class="bg-Primary mt-4 text-sm md:text-base cursor-pointer transition px-6 py-2 rounded-md text-white"
+          >
+            سفارش آنلاین غذا
+          </button>
+        </div>
+
+        <!-- Arrows -->
+        <div
+          id="left-btn"
+          class="absolute hidden md:block left-4 top-1/2 -translate-y-1/2 cursor-pointer p-2 rounded-full bg-white/5 hover:bg-white/20 transition"
+        >
+          <img
+            src="/public/images/svgs/arrow.svg"
+            class="h-6 w-6 rotate-180"
+            alt="prev"
+          />
+        </div>
+        <div
+          id="right-btn"
+          class="absolute hidden md:block right-4 top-1/2 -translate-y-1/2 cursor-pointer p-2 rounded-full bg-white/5 hover:bg-white/20 transition"
+        >
+          <img src="/public/images/svgs/arrow.svg" class="h-6 w-6" alt="next" />
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer></footer>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

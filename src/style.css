@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  /* پالت رنگی اصلی */
+  --color-Tint-1: #e5f2e9;
+  --color-Tint-2: #cae4d3;
+  --color-Tint-3: #b0d7bd;
+  --color-Tint-4: #96c9a7;
+  --color-Tint-5: #7cbc91;
+  --color-Tint-6: #61ae7b;
+  --color-Tint-7: #4e9968;
+  --color-Primary: #417f56;
+  --color-Shade-1: #396f4b;
+  --color-Shade-2: #315f41;
+  --color-Shade-3: #294f36;
+  --color-Shade-4: #21402b;
+  --color-Shade-5: #183020;
+  --color-Shade-6: #102016;
+  --color-Shade-7: #08100b;
+  /* پالت رنگی خنثی */
+  --color-white: #ffffff;
+  --color-gray-1: #f9f9f9;
+  --color-gray-2: #e1e1e1;
+  --color-gray-3: #ededed;
+  --color-gray-4: #cbcbcb;
+  --color-gray-5: #adadad;
+  --color-gray-6: #757575;
+  --color-gray-7: #717171;
+  --color-gray-8: #353535;
+  --color-black: #0c0c0c;
+  /* پالت رنگی وضعیت */
+  --color-Error: #c30000;
+  --color-Error-light: #ed2e2e;
+  --color-Error-extralight: #fff2f2;
+  --color-Success: #00966d;
+  --color-Success-light: #00ba88;
+  --color-success-extralight: #f3fdfa;
+  --color-warning: #a9791c;
+  --color-warning-light: #f4b740;
+  --color-warning-extralight: #fff8e1;
+}
+
+body {
+  font-family: "Estedad";
+}
+
+@font-face {
+  font-family: "Estedad";
+  src: url(..\public\fonts\Estedad-FD[KSHDwght].woff2);
+  types: "woff2";
+}
