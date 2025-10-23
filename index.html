@@ -27,35 +27,57 @@
           </div>
         </div>
         <!-- main navbar -->
-        <ul class="px-4 py-2 text-xs">
+        <ul class="px-4 py-2 text-base">
           <li class="border-b-gray-2 flex items-center gap-1.5 border-b py-3">
-            <img class="h-3 w-3" src="public/images/svgs/home.svg" alt="" />
+            <img class="h-4 w-4" src="public/images/svgs/home.svg" alt="" />
             <a class="text-Primary" href="">صفحه اصلی</a>
           </li>
           <li
             class="border-b-gray-2 relative flex items-center gap-1.5 border-b py-3"
           >
-            <img src="public/images/svgs/menu-board.svg" alt="" />
+            <img
+              class="h-4 w-4"
+              src="public/images/svgs/menu-board.svg"
+              alt=""
+            />
             <a class="text-black" href="">منو</a>
             <span class="absolute left-0"
-              ><img src="public/images/svgs/arrow-down.svg" alt=""
+              ><img
+                class="h-4 w-4"
+                src="public/images/svgs/arrow-down.svg"
+                alt=""
             /></span>
           </li>
           <li
             class="border-b-gray-2 relative flex items-center gap-1.5 border-b py-3"
           >
-            <img src="public/images/svgs/home-hashtag.svg" alt="" />
+            <img
+              class="h-4 w-4"
+              src="public/images/svgs/home-hashtag.svg"
+              alt=""
+            />
             <a class="text-black" href="">شعبه</a>
             <span class="absolute left-0"
-              ><img src="public/images/svgs/arrow-down.svg" alt=""
+              ><img
+                class="h-4 w-4"
+                src="public/images/svgs/arrow-down.svg"
+                alt=""
             /></span>
           </li>
           <li class="border-b-gray-2 flex items-center gap-1.5 border-b py-3">
-            <img src="public/images/svgs/profile-2user.svg" alt="" />
+            <img
+              class="h-4 w-4"
+              src="public/images/svgs/profile-2user.svg"
+              alt=""
+            />
             <a class="text-black" href="">درباره ما</a>
           </li>
           <li class="border-b-gray-2 flex items-center gap-1.5 border-b py-3">
-            <img src="public/images/svgs/call-calling.svg" alt="" />
+            <img
+              class="h-4 w-4"
+              src="public/images/svgs/call-calling.svg"
+              alt=""
+            />
             <a class="text-black" href="">تماس با ما</a>
           </li>
         </ul>
@@ -67,12 +89,12 @@
         class="flex h-6 w-6 items-center justify-center sm:hidden"
       >
         <span
-          class="bg-Primary before:bg-Primary after:bg-Primary relative block h-[1.5px] w-4 before:absolute before:-top-1 before:h-[1.5px] before:w-4 before:content-[''] after:absolute after:top-1 after:h-[1.5px] after:w-4 after:content-['']"
+          class="bg-Primary before:bg-Primary after:bg-Primary relative block h-0.5 w-6 rounded before:absolute before:-top-1.5 before:h-0.5 before:w-6 before:rounded before:content-[''] after:absolute after:top-1.5 after:h-0.5 after:w-6 after:rounded after:content-['']"
         ></span>
       </div>
 
       <!-- menu logo -->
-      <div class="w-26 transition-all md:w-36">
+      <div class="w-32 transition-all">
         <img
           src="public/images/logo-tarkhineh-small-green.png"
           alt="Logo tarkhineh"
@@ -81,7 +103,7 @@
 
       <!-- navbar desktop -->
       <nav class="hidden sm:block">
-        <ul class="flex gap-4 text-sm md:gap-6 md:text-base">
+        <ul class="flex gap-4 text-base md:gap-6">
           <li
             class="hover:text-Primary text-Primary border-b py-1.5 font-bold transition-all"
           >
@@ -105,31 +127,27 @@
       <!-- menu btns -->
       <div class="flex gap-1">
         <div
-          class="bg-Tint-1 hover:bg-Shade-1/30 hidden h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow sm:flex md:h-10 md:w-10"
+          class="bg-Tint-1 hover:bg-Shade-1/30 hidden h-10 w-10 cursor-pointer items-center justify-center rounded transition-all hover:shadow sm:flex"
         >
           <img
-            class="h-4 w-4 md:h-6 md:w-6"
+            class="h-6 w-6"
             src="/public/images/svgs/search-normal.svg"
             alt=""
           />
         </div>
         <div
-          class="bg-Tint-1 hover:bg-Shade-1/30 flex h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow md:h-10 md:w-10"
+          class="bg-Tint-1 hover:bg-Shade-1/30 flex h-10 w-10 cursor-pointer items-center justify-center rounded transition-all hover:shadow"
         >
           <img
-            class="h-4 w-4 md:h-6 md:w-6"
+            class="h-6 w-6"
             src="/public/images/svgs/shopping-cart.svg"
             alt=""
           />
         </div>
         <div
-          class="bg-Tint-1 hover:bg-Shade-1/30 flex h-6 w-6 cursor-pointer items-center justify-center rounded transition-all hover:shadow md:h-10 md:w-10"
+          class="bg-Tint-1 hover:bg-Shade-1/30 flex h-10 w-10 cursor-pointer items-center justify-center rounded transition-all hover:shadow"
         >
-          <img
-            class="h-4 w-4 md:h-6 md:w-6"
-            src="/public/images/svgs/user.svg"
-            alt=""
-          />
+          <img class="h-6 w-6" src="/public/images/svgs/user.svg" alt="" />
         </div>
       </div>
     </header>
@@ -175,10 +193,23 @@
           <img src="/public/images/svgs/arrow.svg" class="h-6 w-6" alt="next" />
         </div>
       </section>
+      <!-- search input mobile -->
+      <div
+        class="border-gray-4 m-4 flex gap-2 rounded-md border px-4 py-2 sm:hidden"
+      >
+        <input
+          class="text-gray-8 w-full outline-0 focus:border-0"
+          type="search"
+          placeholder="جستجو"
+        />
+        <button type="submit">
+          <img src="public/images/svgs/search-normal-black.svg" alt="" />
+        </button>
+      </div>
       <!-- Restaurant menu -->
       <section class="mx-auto max-w-7xl px-3">
         <!-- title -->
-        <div class="my-8 text-center">
+        <div class="mt-8 text-center">
           <h2 class="text-lg font-bold text-black sm:text-2xl">منوی رستوران</h2>
         </div>
         <!-- box menu -->
